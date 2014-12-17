@@ -1,12 +1,15 @@
-#BST - A Bootstrap 3 Starter Theme, for WordPress
+#BST Plus - A Bootstrap 3 Starter Theme, for WordPress
 
-**BST is a simple WordPress starter theme loaded with Bootstrap 3.**
+*Version 2.1*
 
-*Version 2.0*
+**BST Plus is a WordPress starter theme loaded with Bootstrap 3. It is the big brother of BST [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst), and is in fact shares the same base files as BST.**
 
-This theme has been built for use as a starter theme and as a learning aid for people who wish to get into WordPress theme design.
+BST started out as a `B`ootstrap `S`tarter `T`heme for WordPress, but then it got more complicated when modifications were added over the years. I received feedback that has moded me to split BST into two projects:
 
-##Features
+(1) taking BST back to original idea as a starter theme (removing all the modifications), and 
+(2) retaining all the modifications to this new theme, BST Plus (and adding more here, over time).
+
+##Features of BST Plus
 
 * *Simple, intuitive, clean code.*
 * CSS, JS, functions and template parts are organized into different folders.
@@ -16,7 +19,7 @@ This theme has been built for use as a starter theme and as a learning aid for p
 * Visual editor stylesheet - into which the same Bootstrap 3 and starter CSS theme are preloaded by `@import`, so that what you see in the visual editor is (mostly!) what you get at the front end (WYSI(M!)WYG).
 * [MIT licence](http://opensource.org/licenses/MIT) (open source).
 
-##Optional Features
+##Optional Features of BST Plus
 
 * The [BOOTSTRAP THEME](http://getbootstrap.com/examples/theme/) stylesheet is included, to show you how to include int in BST (see `functions/enqueues.php`). If you are getting bored with [flat UI design](http://en.wikipedia.org/wiki/Flat_UI_Design) already, keep it, and begin your own website design from there. Alternatively, you can simply remove it by deleting its enqueue. (And if you are using WooCommerce (see below), you will want to delete some BOOTSTRAP THEME segments from the 'Bootstrapped' WooCommerce `.button` style rules at the bottom of `bst.css`.
 * In `functions/enqueues.php` there is a block of some code that calls jQuery from Google CDN when this theme is on a live website, or alternatively calls a local fallback when offline (i.e. from your WordPress installation's own jQuery). _Some developers like to depend on the Google CDN; some don't._ If this causes your site problems (e.g. goes slow) or if you prefer not to depend on the Google CDN, you can simply remove this stuff from functions/enqueues.php and instead then enqueue WordPress's onboard jQuery (see the comments in `finctions/enqueues.php` for more explanation). 
@@ -31,6 +34,7 @@ This theme has been built for use as a starter theme and as a learning aid for p
 * Custom comment list callback.
 * **A full-width page template** - you can select it in the WordPress Page Editor **Page Attributes** panel.
 
+-----
 
 ##Hovernav
 
@@ -39,6 +43,8 @@ The navbar has some modifications that make the dropdown menu appear on hover (i
 _Hovernav_ only operates for screen sizes >=768px. It doesn't operate on phones, where Bootstrap displays the navbar as as the usual dropdown menu system).
 
 You can easily delete the _hovernav_ segments of bst.js and bst.css if you don't want them. Removing _hovernav_ will not affect the functionality of _meganav_.
+
+-----
 
 ##Meganav
 
@@ -53,6 +59,7 @@ Meganav is **responsive**. Explanation:
 
 You can easily delete the _meganav_ segments of bst.js and bst.css if you don't want them. Removing _meganav_ will not affect the functionality of _hovernav_.
 
+-----
 
 ##WooCommerce support
 
@@ -64,6 +71,7 @@ You can easily delete the _meganav_ segments of bst.js and bst.css if you don't 
 
 Find out more about WooCommerce here: [http://www.woothemes.com/woocommerce/](http://www.woothemes.com/woocommerce/).
 
+-----
 
 ####What if you don't want WooCommerce support?
 
@@ -76,7 +84,7 @@ Simply remove and delete these things that you won't be needing - and everything
 * **Delete:** in /css/bst.css, scroll to the bottom and delete all style rules that have to do with WooCommerce.
 * **Delete:** in /js/bst.js, scroll to the bottom and delete all jQuery code that has to do with WooCommerce.
 
-
+-----
 
 ##Easily make this theme your own
 
@@ -86,10 +94,4 @@ Simply remove and delete these things that you won't be needing - and everything
 * **Do a global search-and-replace** ("Replace in files...") to rename "bst" to "yourtheme" **everywhere** in the theme's code.
 * **Modify** the comments in `style.css`,
 
-Do all that correctly, and this WordPress theme will still work! 
-
------
-### Do you require a starter *child theme* for BST? 
-
-[https://github.com/SimonPadbury/bst-child](https://github.com/SimonPadbury/bst-child).
-
+Do all that correctly, and this WordPress theme will still work!
