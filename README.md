@@ -65,7 +65,7 @@ You can easily delete the _meganav_ segments of bst.js and bst.css if you don't 
 ##WooCommerce support
 
 * You will need to install the [WooCommerce plugin](http://wordpress.org/plugins/woocommerce/).
-* **Improvements since version 1.9:** Now with lots of re-styling of WooCommerce as Bootstrap (see `bst.js` and `bst.css`). Note: the WooCommerce stylesheet has not been 'put out of gear'. Therefore some of the basic WooCommerce styling is implemented while others styles (e.g. buttons, form elements, message and information panels) have had their styles _over-ridden_ by Bootstrap styles. This has been accomplished mostly by using jQuery to swap WooCommerce classes for Bootstrap classes; however, some jQuery-added inline styles and some stylesheet-added button styles have also been used. (These are all easy to remove by deleting if you don't want them - see below.)
+* **Improvements since version 1.9:** Now with lots of re-styling of WooCommerce as Bootstrap (see `bst-plus.js` and `bst-plus.css`). Note: the WooCommerce stylesheet has not been 'put out of gear'. Therefore some of the basic WooCommerce styling is implemented while others styles (e.g. buttons, form elements, message and information panels) have had their styles _over-ridden_ by Bootstrap styles. This has been accomplished mostly by using jQuery to swap WooCommerce classes for Bootstrap classes; however, some jQuery-added inline styles and some stylesheet-added button styles have also been used. (These are all easy to remove by deleting if you don't want them - see below.)
 * Your website will need hyperlinks to "Shop", "My Account", "Cart" and "Checkout" e.g. in your primary menu.
 * You will need to add some WooCommerce Widgets to the sidebar (at minimum, WooCommerce Cart and WooCommerce Categories)
 * And, of course, you will need to add salable items to your shop, and set up your payment gateway.
@@ -89,10 +89,10 @@ Simply remove and delete these things that you won't be needing - and everything
 
 ##Easily make this theme your own
 
-* **Rename** the root folder from `bst/` to `yourtheme/`.
-* **Rename** `bst.css` to `yourtheme.css`.
-* **Rename** `bst.js` to `yourtheme.js`.
-* **Do a global search-and-replace** ("Replace in files...") to rename "bst" to "yourtheme" **everywhere** in the theme's code.
-* **Modify** the comments in `style.css`,
+* **Rename** the root folder from `bst-plus/` to `yourtheme/`.
+* **Rename** `bst-plus.css` to `yourtheme.css`.
+* **Rename** `bst-plus.js` to `yourtheme.js`.
+* **Do a global search-and-replace** ("Replace in files...") to rename "bst-plus" to "your-theme" and "bst_plus" to "your_theme" **everywhere** in the theme's code.
+* **Modify** the comments in `style.css`.
 
 Do all that correctly, and this WordPress theme will still work!
