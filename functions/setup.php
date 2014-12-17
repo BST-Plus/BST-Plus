@@ -8,7 +8,7 @@ function bst_setup() {
   update_option('large_size_w', 970);
 
 }
-add_action('init', 'bst_setup');
+add_action('init', 'bst_plus_setup');
 
 if (! isset($content_width))
 	$content_width = 600;
@@ -16,11 +16,11 @@ if (! isset($content_width))
 function bst_excerpt_readmore() {
     return '&nbsp; <a href="'. get_permalink() . '">' . '&hellip; ' . __('Read more', 'bst') . ' <i class="glyphicon glyphicon-arrow-right"></i>' . '</a></p>';
 }
-add_filter('excerpt_more', 'bst_excerpt_readmore');
+add_filter('excerpt_more', 'bst_plus_excerpt_readmore');
 
 /*  Browser detection body_class() output
 /* ------------------------------------ */ 
-function bst_browser_body_class( $classes ) {
+function bst_plus_browser_body_class( $classes ) {
     global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4, $is_safari, $is_chrome, $is_iphone;
  
     if($is_lynx) $classes[] = 'lynx';
@@ -54,6 +54,6 @@ function bst_browser_body_class( $classes ) {
  
     return $classes;
 }
-add_filter( 'body_class', 'bst_browser_body_class' );
+add_filter( 'body_class', 'bst_plus_browser_body_class' );
 
 add_theme_support( 'woocommerce' );
