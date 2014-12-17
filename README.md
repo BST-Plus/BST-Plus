@@ -1,4 +1,4 @@
-#BST Plus - A Bootstrap 3 Starter Theme, for WordPress
+#BST Plus - A Bootstrap 3 Starter Theme, for WordPress - with Add-ons
 
 *Version 2.1*
 
