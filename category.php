@@ -6,7 +6,7 @@
     <div class="col-xs-12 col-sm-8">
       <div id="content" role="main">
         <header class="archive-header">
-	  <h3><?php _e('Blog Category', 'bst'); ?>: <?php single_cat_title(''); ?></h3>
+	  <h3><?php _e('Blog Category', 'bst-plus'); ?>: <?php single_cat_title(''); ?></h3>
           <hr/>
         </header>
         <?php if(have_posts()): while(have_posts()): the_post();?>
@@ -23,15 +23,15 @@
           <?php the_post_thumbnail(); ?>
           <?php the_content('&hellip; ' . __('Continue reading', 'bst' ) . ' <i class="glyphicon glyphicon-arrow-right"></i>'); ?>
           <p class="text-muted" style="margin-bottom: 20px;">
-            <i class="glyphicon glyphicon-folder-open"></i>&nbsp; <?php _e('Filed under', 'bst'); ?>: <?php the_category(', ') ?><br/>
-            <i class="glyphicon glyphicon-comment"></i>&nbsp; <?php _e('Comments', 'bst'); ?>: <?php comments_popup_link(__('None', 'bst'), '1', '%'); ?>
+            <i class="glyphicon glyphicon-folder-open"></i>&nbsp; <?php _e('Filed under', 'bst-plus'); ?>: <?php the_category(', ') ?><br/>
+            <i class="glyphicon glyphicon-comment"></i>&nbsp; <?php _e('Comments', 'bst-plus'); ?>: <?php comments_popup_link(__('None', 'bst-plus'), '1', '%'); ?>
           </p>
           <hr/>
         </article>
         <?php endwhile; ?>
         <ul class="pagination">
-          <li class="older"><?php next_posts_link('&laquo; ' . __('Older', 'bst')) ?></li>
-          <li class="newer"><?php previous_posts_link(__('Newer', 'bst') . ' &raquo;') ?></li>
+          <li class="older"><?php next_posts_link('&laquo; ' . __('Older', 'bst-plus')) ?></li>
+          <li class="newer"><?php previous_posts_link(__('Newer', 'bst-plus') . ' &raquo;') ?></li>
         </ul>
         <?php else: ?>
         <?php wp_redirect(get_bloginfo('siteurl').'/404', 404); exit; ?>
