@@ -4,10 +4,10 @@
 
 **BST Plus is a WordPress starter theme loaded with Bootstrap 3. It is the big brother of BST [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst), and is in fact shares the same base files as BST.**
 
-BST started out as a *B*ootstrap *S*tarter *T*heme for WordPress, but then it got more complicated when modifications were added over the years. I received feedback that has moded me to split BST into two projects:
+BST started out as a *Bootstrap Starter Theme* for WordPress, but then it got more complicated when modifications were added over the years. I received feedback that has moded me to split BST into two projects:
 
-(1) taking BST back to original idea as a starter theme (removing all the modifications), and 
-(2) retaining all the modifications to this new theme, BST Plus (and adding more here, over time).
+(1) taking BST back to original idea as a *starter* theme (i.e. removing all the modifications), and then
+(2) retaining all the modifications in this new theme, BST Plus (and adding more here, over time).
 
 ##Features of BST Plus
 
