@@ -7,6 +7,7 @@
 BST started out as a *Bootstrap Starter Theme* for WordPress, but then it got more complicated when modifications were added over the years. I received feedback that has moded me to split BST into two projects:
 
 (1) taking BST back to original idea as a *starter* theme (i.e. removing all the modifications), and then
+
 (2) retaining all the modifications in this new theme, BST Plus (and adding more here, over time).
 
 ##Features of BST Plus
