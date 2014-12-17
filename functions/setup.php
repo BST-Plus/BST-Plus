@@ -57,3 +57,5 @@ function bst_plus_browser_body_class( $classes ) {
 add_filter( 'body_class', 'bst_plus_browser_body_class' );
 
 add_theme_support( 'woocommerce' );
+
+?>
