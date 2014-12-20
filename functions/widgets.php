@@ -1,6 +1,6 @@
 <?php
 
-function bst_widgets_init() {
+function bst_plus_widgets_init() {
 
   	/*
     Sidebar (one widget area)
