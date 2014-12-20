@@ -1,6 +1,6 @@
 <?php
 
-function bst_setup() {
+function bst_plus_setup() {
   add_editor_style('css/editor-style.css');
   add_theme_support('post-thumbnails');
 	update_option('thumbnail_size_w', 170);
