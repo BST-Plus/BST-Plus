@@ -10,14 +10,14 @@ BST started out as a *Bootstrap Starter Theme* for WordPress, but then it got mo
 
 (2) retaining all the modifications in this new theme, BST Plus (and hopefully adding more here, over time).
 
-##Features of BST Plus
+## Basic Features of BST Plus (same as BST)
 
 * *Simple, intuitive, clean code.*
 * CSS, JS, functions and template parts are organized into different folders.
 * **Bootstrap 3.3.1** - CSS and JS enqueued. You can simply swap the default Bootstrap 3 files (included) for a custom made Bootstrap 3, and this theme will still work.
 * **jQuery 1.11.1** either using the hosted Google CDN or WordPress's onboard jQuery. You decide (see below).
-* A starter CSS theme - `bst.css`, enqueued. (**Don't** put your own styles in `style.css`.)
-* Visual editor stylesheet - into which the same Bootstrap 3 and starter CSS theme are preloaded by `@import`, so that what you see in the visual editor is (mostly!) what you get at the front end (WYSI(M!)WYG).
+* A starter CSS theme - `bst-plus.css`, enqueued. (**Don't** put your own styles in `style.css`.)
+* Visual editor stylesheet - into which the same Bootstrap 3 and starter CSS theme are preloaded by `@import`, so that what you see in the visual editor is (mostly!) what you get at the front end (WYSI(M!)WYG). E.g. you will see the theme's typpography in the WordPress Post/Page editor, but its width will not be the same as your article column width in the front end.
 * [MIT licence](http://opensource.org/licenses/MIT) (open source).
 
 ##Optional Features of BST Plus
@@ -49,7 +49,7 @@ You can easily delete the _hovernav_ segments of bst.js and bst.css if you don't
 
 ##Meganav
 
-The navbar has some modifications that enable **child links and grandchild links** to be shown in a **megamenu** (in `bst.js` plus `bst.css`). 
+The navbar has some modifications that enable **child links and grandchild links** to be shown in a **megamenu** (in `bst-plus.js` plus `bst-plus.css`). 
 
 Meganav is **responsive**. Explanation:
 
