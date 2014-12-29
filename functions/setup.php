@@ -78,7 +78,7 @@ function bst_plus_pagination( $query=null ) {
 	);
 	if ($query->max_num_pages > 1) :
 ?>
-        <ul class="pagination pagination-centered">
+        <ul class="pagination">
         	<?php
 			foreach ( $paginate as $page ) {
 				if(!preg_match('/^<span class="page-numbers dots">/',$page)){
