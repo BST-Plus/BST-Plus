@@ -1,7 +1,10 @@
 /*
 HOVERNAV
+========
+
 A simple addition to the dropdown menu (Bootstrap itself is unchanged). Navbar dropdowns appear on hover.
 This works only for screen sizes larger than phones.
+
 If you don't want this, delete this segment of the CSS and delete the corresponding segment of bst.js
 */
 @media (min-width: 768px) {
@@ -31,8 +34,10 @@ If you don't want this, delete this segment of the CSS and delete the correspond
 
 /*
 MEGANAV
-A simple addition to the dropdown menu (Bootstrap itself is unchanged). When you add GRAND-CHILD links in the navbar,
-On screens larger than phones, Meganav will transform the dropdown into a mega-menu, with child-links displayed as menu-column heads (in bold).
+=======
+
+A simple addition to the dropdown menu (Bootstrap itself is unchanged). When you add GRAND-CHILD links in the navbar: on screens larger than phones, Meganav will transform the dropdown into a mega-menu, with child-links displayed as menu-column heads (in bold).
+
 If you don't want this, delete this segment of the CSS and delete the corresponding segment of bst.js
 */
 .mega-menu ul a {
@@ -90,23 +95,33 @@ Max content widths
 }
 
 /*
-Header logo
-An example of how to use CSS to display an image as a background of an HTML element.
-*/
+Site Title
+==========
+
+If you require a Site title and a logo, an example of how to do this is provided below (use your own logo):
 
 #site-title a {
-  display: inline-block;
-  padding: 30px 0 30px 100px;
-  background: url(../img/bst.png) 0 0 no-repeat;
-  background-size: 95px 95px
+    display: inline-block;
+	padding-left 60px;
+    background: url(../img/logo.png) 0 0 no-repeat;
 }
-#site-title a:hover {
-  background: url(../img/bst-hover.png) 0 0 no-repeat;
-  background-size: 95px 95px;
-  text-decoration: none
+*/
+
+/*
+Main content
+*/
+
+#content article {
+  margin-bottom: 40px
 }
-.main-nav {
-  margin-top: 20px
+#content header {
+  margin: 20px 0
+}
+#content section {
+  margin-bottom: 20px
+}
+#content footer {
+  padding-bottom: 20px
 }
 
 /*
@@ -129,20 +144,30 @@ Hide form placeholders on focus
 input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
 input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+textarea:focus::-webkit-input-placeholder { color: transparent; }
+textarea:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+textarea:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
 
 /*
-Footer
+Site footer
 */
 
-.footer ul,
-.footer ol {
+.site-footer {
+  padding: 40px 0
+}
+.site-footer ul,
+.site-footer ol {
   list-style-type: none;
   padding: 0
 }
-.footer li {
+.site-footer li {
   margin: 10px 0
 }
-.sub-footer p {
+.site-sub-footer p {
+  text-align: center
+}
+
+.site-footer p {
   text-align: center
 }
 
@@ -155,7 +180,7 @@ ol.commentlist {
 	padding: 0
 }
 ol.commentlist ul {
-  padding: 0
+    padding: 0
 }
 ol.commentlist > li {
 	position: relative;
@@ -163,49 +188,53 @@ ol.commentlist > li {
 	list-style: none /* Disable the normal item numbering */
 }
 ol.commentlist > li:before {
-  content: "Thread " counter(li); /* Use the counter as content */
-  counter-increment: li; /* Increment the counter by 1 */
-  position:absolute;  
-  top: 0;
-  right: 0;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  border-bottom-left-radius: 4px;
-  padding: 5px 20px 5px 10px;
-  color: #999
+    content: "Thread " counter(li); /* Use the counter as content */
+    counter-increment: li; /* Increment the counter by 1 */
+    position:absolute;  
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom-left-radius: 4px;
+    padding: 5px 20px 5px 10px;
+    color: #999
 }
 ol.commentlist li ol,
 ol.commentlist li ul {
-  list-style-type: none;
-  margin: 0
+    list-style-type: none;
+    margin: 0
 }
 
 .commentlist li li {
-  background: #f8f8f8;
+    background: #f8f8f8;
 }
 .commentlist li li li {
-  background: #fff
+    background: #fff
 }
 .commentlist li li li li {
-  background: #f8f8f8
+    background: #f8f8f8
 }
 .commentlist li li li li li li {
-  background: #fff
+    background: #fff
 }
 .commentlist li {
-  padding: 20px
+    padding: 20px
 }
 .commentlist ul li {
-  margin-top: 20px;
-  margin-bottom: 0
+    margin-top: 20px;
+    margin-bottom: 0
 }
 .reply p {
-  margin: 0
+    margin: 0
 }
 
 /*
-WOOCOMMERCE - re-styling
-If you don't want this, delete this segment of the CSS and delete the corresponding segment of bst.js
+WOOCOMMERCE - re-styling to match Bootstrap
+===========================================
+
+If you don't want this to use the WooCommerce plugin, or if you don't want these styles below, then delete this entire segment of the CSS and delete the corresponding segment of bst-plus.js
+
+Notice that some of the styles below are for compatibility with Bootstrap Theme. If you are not using Bootstrap Theme, then delete those portions below.
 */
 
 .woocommerce a:focus {
@@ -320,7 +349,7 @@ If you don't want this, delete this segment of the CSS and delete the correspond
 	/* Extra fixes */
 	text-shadow: none;
 	/* box-shadow: none; */
-	/* Un-comment the line above if you are not using the BOOTSTRAP THEME. */
+	/* Un-comment the line above if you are NOT using the BOOTSTRAP THEME. */
 }
 .woocommerce #content input.button.alt:hover, 
 .woocommerce #respond input#submit.alt:hover, 
@@ -357,7 +386,7 @@ If you don't want this, delete this segment of the CSS and delete the correspond
 	list-style: outside none none !important;
 	width: auto;
 	/* box-shadow: none; */
-	/* Un-comment the line above if you are not using the BOOTSTRAP THEME. */
+	/* Un-comment the line above if you are NOT using the BOOTSTRAP THEME. */
 	/* .alert */
 	padding: 15px;
 	margin-bottom: 20px;

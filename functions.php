@@ -10,6 +10,7 @@ require_once locate_template('/functions/navbar.php');
 require_once locate_template('/functions/widgets.php');
 require_once locate_template('/functions/search.php');
 require_once locate_template('/functions/feedback.php');
+require_once locate_template('/functions/woocommerce-setup.php');
 
 add_action('after_setup_theme', 'true_load_theme_textdomain');
 

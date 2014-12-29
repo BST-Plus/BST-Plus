@@ -7,7 +7,7 @@ Editor stylesheet
 */
 
 @import url('bootstrap.min.css');
-@import url('bst.css');
+@import url('bst-plus.css');
 
 body, body.wp-autoresize {
   padding: 10px !important;
