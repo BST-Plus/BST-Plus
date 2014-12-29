@@ -6,7 +6,7 @@
 
 BST Plus is the big brother of BST [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST.
 
-##Basic Features of BST Plus
+###Basic Features of BST Plus
 
 * *Simple, intuitive, clean code.*
 * CSS, JS, functions and template parts are organized into different folders.
@@ -18,7 +18,7 @@ BST Plus is the big brother of BST [https://github.com/SimonPadbury/bst](https:/
 * Bootstrap pagination ( e.g. `<- Previous | 1 | 2 | 3 | Next ->`) for Blog index and category pages.
 * [MIT licence](http://opensource.org/licenses/MIT) (open source).
 
-##Optional Features of BST Plus
+###Optional Features of BST Plus
 
 * [Bootstrap Theme](http://getbootstrap.com/examples/theme/) included.
 * jQuery loaded from either Google CDN (with local WordPress fallback), or simply from WordPress. You decide.
