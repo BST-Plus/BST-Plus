@@ -35,7 +35,7 @@ Alternatively, notice that index.php, category.php and single.php have a post_cl
     </article>
 <?php endwhile; ?>
 
-<?php if ( function_exists('bst_pagination') ) { bst_pagination(); } else if ( is_paged() ) { ?>
+<?php if ( function_exists('bst_plus_pagination') ) { bst_plus_pagination(); } else if ( is_paged() ) { ?>
   <ul class="pagination">
     <li class="older"><?php next_posts_link('<i class="glyphicon glyphicon-arrow-left"></i> ' . __('Previous', 'bst-plus')) ?></li>
     <li class="newer"><?php previous_posts_link(__('Next', 'bst-plus') . ' <i class="glyphicon glyphicon-arrow-right"></i>') ?></li>
