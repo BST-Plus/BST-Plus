@@ -4,12 +4,7 @@
 
 **BST Plus is a WordPress Bootstrap starter theme. It has an increasing number of optional add-ons built in.** Examples: navbar drop-down on hover ('Hovernav'), navbar mega-menu ('Meganav'), and WooCommerce support. 
 
-```
-Use what you want, and delete (or comment out) what you don't want. 
-Each add-on is designed to be independant from the other add-ons, 
-so that removal of one will not inactivate another. 
-And no add-on removes any of the Bootstrap CSS or JS.
-```
+`Use what you want, and delete (or comment out) what you don't want. Each add-on is designed to be independant from the other add-ons, so that removal of one will not inactivate another. And no add-on removes any of the Bootstrap CSS or JS.`
 
 BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
 
