@@ -11,7 +11,7 @@ so that removal of one will not inactivate another.
 And no add-on removes any of the Bootstrap CSS or JS.
 ```
 
-BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST.
+BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
 
 ###Basic Features of BST Plus
 
@@ -22,7 +22,6 @@ BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/
 * `Modernizr.js`, `respond.js` and `html5shiv.css` included - enqueued.
 * A starter CSS theme - `css/bst-plus.css`, enqueued. (**Don't** put your own styles in `style.css`.)
 * Visual editor stylesheet - into which the same Bootstrap 3 and starter CSS theme are preloaded by `@import`, so that what you see in the visual editor is (mostly!) what you get at the front end (WYSI(M!)WYG). E.g. you will see the theme's typography in the WordPress Post/Page editor, but its width will not be the same as your article column width in the front end.
-* Choice of two navbar positions (above and below the site title).
 * Bootstrap pagination ( e.g. `<- Previous | 1 | 2 | 3 | Next ->`) for Blog index and category pages.
 * [MIT licence](http://opensource.org/licenses/MIT) (open source).
 
@@ -31,6 +30,7 @@ BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/
 * [Bootstrap Theme](http://getbootstrap.com/examples/theme/) included.
 * jQuery loaded from either Google CDN (with local WordPress fallback), or simply from WordPress. You decide.
 * **WooCommerce** plugin support. (You will also need the [WooCommerce plugin] (http://wordpress.org/plugins/woocommerce/)).
+* Choice of two navbar positions (above and below the site title).
 * **Hovernav** - navbar dropdown on hover.
 * **Meganav** - navbar mega-menu, which automatically works whenever there are grand-child links (for screen sizes >= 768px).
 * In `functions/cleanup.php` there are some filters are included (but commented-out, so are inactive) for removing WordPress IDs and classes from the navbar(s). If you would like to use these filters, then simply un-comment them.
