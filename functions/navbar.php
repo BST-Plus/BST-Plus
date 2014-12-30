@@ -117,7 +117,12 @@ class BootstrapNavMenuWalker extends Walker_Nav_Menu {
 
 }
 
-register_nav_menu('navbar-left', __('Main menu (left)', 'bst-plus'));
-register_nav_menu('navbar-right', __('Main menu (right)', 'bst-plus'));
+// Upper navbar (above site title)
+register_nav_menu('navbar-upper-left', __('Upper navbar (left)', 'bst-plus'));
+register_nav_menu('navbar-upper-right', __('Upper navbar (right)', 'bst-plus'));
+
+// Lower navbar (below site title)
+register_nav_menu('navbar-lower-left', __('Lower navbar (left)', 'bst-plus'));
+register_nav_menu('navbar-lower-right', __('Lower navbar (right)', 'bst-plus'));
 
 ?>
