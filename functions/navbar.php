@@ -5,6 +5,8 @@ Twitter Bootstrap toolkit Dropdown menus in Wordpress.
 Edited to support n-levels submenu.
 @author johnmegahan https://gist.github.com/1597994, Emanuele 'Tex' Tessore https://gist.github.com/3765640
 */
+
+/* Menus are registered at the bottom of this page. */
 ?>
 
 <?php
