@@ -20,7 +20,7 @@ if (have_comments()) : ?>
 </p>
   
 <ol class="commentlist">
-  <?php wp_list_comments('type=comment&callback=bst-plus_comment');?>
+  <?php wp_list_comments('type=comment&callback=bst_plus_comment');?>
 </ol>
 
 <ul class="pagination">
