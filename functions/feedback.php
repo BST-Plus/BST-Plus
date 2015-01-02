@@ -4,7 +4,7 @@ Custom feedback comments
 https://codex.wordpress.org/Function_Reference/wp_list_comments#Comments_Only_With_A_Custom_Comment_Display
 */
 
-function bst_comment($comment, $args, $depth) {
+function bst_plus_comment($comment, $args, $depth) {
   $GLOBALS['comment'] = $comment;
   extract($args, EXTR_SKIP);
   if ( 'div' == $args['style'] ) {
