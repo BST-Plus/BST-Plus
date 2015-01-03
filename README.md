@@ -8,6 +8,16 @@
 
 BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
 
+-----
+
+##BST Plus Child Theme
+
+There's a BST Plus starter child theme if you are interested, called [bst-plus-child](https://github.com/SimonPadbury/bst-plus-child)
+
+Initiating a child theme for BST Plus us a little unusual so I have started one for you, setting up the child stylesheet enqueue so that it is loaded after the BST Plus stylesheet.
+
+-----
+
 ###Basic Features of BST Plus
 
 * *Simple, intuitive, clean code.*
