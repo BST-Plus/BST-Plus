@@ -11,6 +11,7 @@ Template Name: Full Width Page
 
     <div class="col-sm-12">
       <div id="content" role="main">
+      	<?php tha_content_before(); ?>
         <?php get_template_part('includes/loops/content', 'page'); ?>
       </div><!-- /#content -->
     </div>
