@@ -27,8 +27,8 @@ BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/
 * jQuery loaded from either Google CDN (with local WordPress fallback), or simply from WordPress. You decide.
 * WooCommerce plugin support. (You will also need the [WooCommerce plugin] (http://wordpress.org/plugins/woocommerce/)).
 * Choice of two navbar positions (above and below the site title).
-* Hovernav - navbar dropdown on hover.
-* Meganav - navbar mega-menu, which automatically works whenever there are grand-child links (for screen sizes >= 768px).
+* *Hovernav* - navbar dropdown on hover.
+* *Meganav* - navbar mega-menu, which automatically works whenever there are grand-child links (for screen sizes >= 768px).
 * In `functions/cleanup.php` there are some filters are included (but commented-out, so are inactive) for removing WordPress IDs and classes from the navbar(s). If you would like to use these filters, then simply un-comment them.
 * A few simple jQuery scripts - in `js/bst-plus.js`, enqueued.
 * Custom comment list callback.
