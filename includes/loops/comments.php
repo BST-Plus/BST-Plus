@@ -16,13 +16,13 @@ if (have_comments()) : ?>
 
 <h3><?php _e('Feedback', 'bst-plus'); ?></h3>
 <p class="text-muted" style="margin-bottom: 20px;">
- <i class="glyphicon glyphicon-comment"></i>&nbsp; <?php _e('Comments', 'bst-plus');  ?>: <?php comments_number(__('None', 'bst-plus'), '1', '%'); ?>
+  <?php tha_comments_before(); ?>
+<i class="glyphicon glyphicon-comment"></i>&nbsp; <?php _e('Comments', 'bst-plus');  ?>: <?php comments_number(__('None', 'bst-plus'), '1', '%'); ?>
 </p>
-  
 <ol class="commentlist">
   <?php wp_list_comments('type=comment&callback=bst_plus_comment');?>
 </ol>
-
+  <?php tha_comments_after(); ?>
 <ul class="pagination">
   <li class="older"><?php previous_comments_link() ?></li>
   <li class="newer"><?php next_comments_link() ?></li>

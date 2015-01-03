@@ -5,6 +5,7 @@
 
     <div class="col-xs-12 col-sm-8">
       <div id="content" role="main">
+        <?php tha_content_before(); ?>
         <?php get_template_part('includes/loops/content', 'page'); ?>
       </div><!-- /#content -->
     </div>
