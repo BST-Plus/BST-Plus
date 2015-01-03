@@ -11,6 +11,7 @@ require_once locate_template('/functions/widgets.php');
 require_once locate_template('/functions/search.php');
 require_once locate_template('/functions/feedback.php');
 require_once locate_template('/functions/woocommerce-setup.php');
+require locate_template('/functions/theme-hooks.php');
 
 add_action('after_setup_theme', 'true_load_theme_textdomain');
 
