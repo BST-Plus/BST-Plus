@@ -10,10 +10,13 @@ If you require different templates for different post types, then simply duplica
 Alternatively, notice that index.php, category.php and single.php have a post_class() function-call that inserts different classes for different post types into the <section> tag (e.g. <section id="" class="format-aside">). Therefore you can simply use e.g. .format-aside {your styles} in css/bst-plus.css style the different formats in different ways.
 */
 ?>
-
+<?php tha_content_before(); ?>
+<?php tha_content_top(); ?>
 <?php if(have_posts()): while(have_posts()): the_post();?>
+    <?php tha_entry_before(); ?>
     <article role="article" id="post_<?php the_ID()?>">
         <header>
+            <?php tha_entry_top(); ?>
             <h2><a href="<?php the_permalink(); ?>"><?php the_title()?></a></h2>
             <h4>
               <em>
@@ -33,7 +36,9 @@ Alternatively, notice that index.php, category.php and single.php have a post_cl
             </p>
         </footer>
     </article>
+    <?php tha_entry_bottom(); ?>
 <?php endwhile; ?>
+<?php tha_entry_after(); ?>
 
 <?php if ( function_exists('bst_plus_pagination') ) { bst_plus_pagination(); } else if ( is_paged() ) { ?>
   <ul class="pagination">
@@ -41,5 +46,4 @@ Alternatively, notice that index.php, category.php and single.php have a post_cl
     <li class="newer"><?php previous_posts_link(__('Next', 'bst-plus') . ' <i class="glyphicon glyphicon-arrow-right"></i>') ?></li>
   </ul>
 <?php } ?>
-
 <?php else: wp_redirect(get_bloginfo('siteurl').'/404', 404); exit; endif; ?>
