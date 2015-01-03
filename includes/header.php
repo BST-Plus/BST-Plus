@@ -1,14 +1,18 @@
 <!DOCTYPE html>
+<?php tha_html_before(); ?>
 <html>
 <head>
+  <?php tha_head_top(); ?>
 	<title><?php wp_title('•', true, 'right'); bloginfo('name'); ?></title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<?php wp_head(); ?>
+  <?php tha_head_bottom(); ?>
+  <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+<?php tha_body_top(); ?>
 
 <!--[if lt IE 8]>
 <div class="alert alert-warning">
@@ -54,7 +58,9 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<?php tha_header_before(); ?>
 <div class="container">
+  <?php tha_header_top(); ?>      
   <div class="row">
     <div class="col-sm-12">
       <h1 id="site-title">
@@ -62,6 +68,7 @@
       </h1>
     </div>
   </div>
+  <?php tha_header_bottom(); ?>     
 </div>
 
 <div class="container">
@@ -100,4 +107,5 @@
         ?>
       </div><!-- /.navbar-collapse -->
     </nav>
+    <?php tha_header_after(); ?>      
 </div>
