@@ -1,6 +1,6 @@
 #BST Plus
 
-*Version 2.2*
+*Version 2.3*
 
 **BST Plus is a WordPress Bootstrap starter theme. It has an increasing number of optional add-ons built in.** Examples: navbar drop-down on hover ('Hovernav'), navbar mega-menu ('Meganav'), and WooCommerce support. 
 
@@ -19,6 +19,7 @@ BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/
 * Visual editor stylesheet - into which the same Bootstrap 3 and starter CSS theme are preloaded by `@import`, so that what you see in the visual editor is (mostly!) what you get at the front end (WYSI(M!)WYG). E.g. you will see the theme's typography in the WordPress Post/Page editor, but its width will not be the same as your article column width in the front end.
 * Bootstrap pagination ( e.g. ` 1 | 2 | 3 | Older ->`) for Blog index and category pages.
 * [MIT licence](http://opensource.org/licenses/MIT) (open source).
+* **THA Action Hooks** - THA Action Hooks are now added
 
 ###Optional Features of BST Plus
 
