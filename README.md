@@ -39,7 +39,7 @@ Initiating a child theme for BST Plus us a little unusual so I have started one 
 * Choice of two navbar positions (above and below the site title).
 * *Hovernav* - navbar dropdown on hover.
 * *Meganav* - navbar mega-menu, which automatically works whenever there are grand-child links (for screen sizes >= 768px).
-* In `functions/cleanup.php` there are some filters are included (but commented-out, so are inactive) for removing WordPress IDs and classes from the navbar(s). If you would like to use these filters, then simply un-comment them.
+* In `functions/cleanup.php` there are some filters included (but commented-out, so are inactive) for removing WordPress IDs and classes from the navbar(s). If you would like to use these filters, then simply un-comment them.
 * A few simple jQuery scripts - in `js/bst-plus.js`, enqueued.
 * Custom comment list callback.
 * A full-width page template.
