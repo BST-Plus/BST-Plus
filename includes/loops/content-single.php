@@ -10,7 +10,6 @@ The Single Posts Loop
     <?php tha_entry_before(); ?>
     <article role="article" id="post_<?php the_ID()?>" <?php post_class()?>>
         <header>
-            <?php tha_entry_top(); ?>
             <h2><?php the_title()?></h2>
             <h4>
                 <em>
@@ -22,6 +21,7 @@ The Single Posts Loop
                 <i class="glyphicon glyphicon-folder-open"></i>&nbsp; <?php _e('Filed under', 'bst-plus'); ?>: <?php the_category(', ') ?><br/>
                 <i class="glyphicon glyphicon-comment"></i>&nbsp; <?php _e('Comments', 'bst-plus'); ?>: <?php comments_popup_link(__('None', 'bst-plus'), '1', '%'); ?>
             </p>
+            <?php tha_entry_top(); ?>
         </header>
         <section>
             <?php the_post_thumbnail(); ?>
