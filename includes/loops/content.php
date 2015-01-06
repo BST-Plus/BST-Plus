@@ -16,7 +16,6 @@ Alternatively, notice that index.php, category.php and single.php have a post_cl
     <?php tha_entry_before(); ?>
     <article role="article" id="post_<?php the_ID()?>">
         <header>
-            <?php tha_entry_top(); ?>
             <h2><a href="<?php the_permalink(); ?>"><?php the_title()?></a></h2>
             <h4>
               <em>
@@ -24,6 +23,7 @@ Alternatively, notice that index.php, category.php and single.php have a post_cl
                 <time  class="text-muted" datetime="<?php the_time('d-m-Y')?>"><?php the_time('jS F Y') ?></time>
               </em>
             </h4>
+            <?php tha_entry_top(); ?>
         </header>
         <section>
             <?php the_post_thumbnail(); ?>
