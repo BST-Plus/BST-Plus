@@ -70,5 +70,3 @@ Delete (or comment-out) the next two lines of code below if you don't want the B
 	}
 }
 add_action('wp_enqueue_scripts', 'bst_plus_enqueues', 100);
-
-?>
