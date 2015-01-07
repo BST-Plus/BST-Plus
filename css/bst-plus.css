@@ -1,7 +1,6 @@
 /*
 HOVERNAV
 ========
-
 A simple addition to the dropdown menu (Bootstrap itself is unchanged). Navbar dropdowns appear on hover.
 This works only for screen sizes larger than phones.
 
@@ -35,7 +34,6 @@ If you don't want this, delete this segment of the CSS and delete the correspond
 /*
 MEGANAV
 =======
-
 A simple addition to the dropdown menu (Bootstrap itself is unchanged). When you add GRAND-CHILD links in the navbar: on screens larger than phones, Meganav will transform the dropdown into a mega-menu, with child-links displayed as menu-column heads (in bold).
 
 If you don't want this, delete this segment of the CSS and delete the corresponding segment of bst.js
@@ -97,7 +95,6 @@ Max content widths
 /*
 Site Title
 ==========
-
 If you require a Site title and a logo, an example of how to do this is provided below (use your own logo):
 
 #site-title a {
@@ -231,7 +228,6 @@ ol.commentlist li ul {
 /*
 WOOCOMMERCE - re-styling to match Bootstrap
 ===========================================
-
 If you don't want this to use the WooCommerce plugin, or if you don't want these styles below, then delete this entire segment of the CSS and delete the corresponding segment of bst-plus.js
 
 Notice that some of the styles below are for compatibility with Bootstrap Theme. If you are not using Bootstrap Theme, then delete those portions below.
