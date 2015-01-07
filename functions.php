@@ -18,5 +18,3 @@ add_action('after_setup_theme', 'true_load_theme_textdomain');
 function true_load_theme_textdomain(){
     load_theme_textdomain( 'bst-plus', get_template_directory() . '/languages' );
 }
-
-?>
