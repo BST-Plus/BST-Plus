@@ -43,7 +43,7 @@ Initiating a child theme for BST Plus us a little unusual so I have started one 
 * A few simple jQuery scripts - in `js/bst-plus.js`, enqueued.
 * Custom comment list callback.
 * A full-width page template.
-* **Custom post type** - example "Resources" - with instructions for use in comments within the file `functions/custom-post-type-resource.php`
+* **Custom post type** - example: "Resources" - with instructions for use in comments within the file `functions/custom-post-type-resource.php`
 
 And more to come.
 
