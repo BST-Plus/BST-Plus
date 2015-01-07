@@ -8,5 +8,3 @@ function bst_plus_search_form( $form ) {
     return $form;
 }
 add_filter( 'get_search_form', 'bst_plus_search_form' );
-
-?>
