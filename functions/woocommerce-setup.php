@@ -88,5 +88,3 @@ function bst_plus_woomenucart($menu, $args) {
 	return $menu . $social;
 }
 add_filter('wp_nav_menu_items','bst_plus_woomenucart', 10, 2);
-
-?>
