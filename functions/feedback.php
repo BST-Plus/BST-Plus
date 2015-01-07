@@ -42,5 +42,4 @@ function bst_plus_comment($comment, $args, $depth) {
     </div>
       <?php if ( 'div' != $args['style'] ) : ?>
     </div>
-  <?php endif; ?>
-<?php } ?>
+  <?php endif; }
