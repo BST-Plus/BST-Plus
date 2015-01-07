@@ -122,5 +122,3 @@ register_nav_menu('navbar-upper-right', __('Upper navbar (right)', 'bst-plus'));
 // Lower navbar (below site title)
 register_nav_menu('navbar-lower-left', __('Lower navbar (left)', 'bst-plus'));
 register_nav_menu('navbar-lower-right', __('Lower navbar (right)', 'bst-plus'));
-
-?>
