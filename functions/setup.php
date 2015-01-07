@@ -87,5 +87,3 @@ if ( ! function_exists( 'bst_plus_pagination' ) ) {
 }
 
 add_theme_support( 'woocommerce' );
-
-?>
