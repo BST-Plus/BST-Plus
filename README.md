@@ -52,4 +52,4 @@ And more to come.
 
 -----
 
-**More information can be found in the BST Plus Docs here: [https://github.com/SimonPadbury/bst-plus/wiki](https://github.com/SimonPadbury/bst-plus/wiki).**
+**More information can be found in the BST Plus Docs here: [https://github.com/BST-Plus/bst-plus/wiki](https://github.com/BST-Plus/bst-plus/wiki).**
