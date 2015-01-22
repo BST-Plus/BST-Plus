@@ -6,7 +6,13 @@
 
 `Use what you want, and delete (or comment out) what you don't want. Each add-on is designed to be independant from the other add-ons, so that removal of one will not deactivate another. Deactivating an add-on will not remove any of the Bootstrap CSS or JS.`
 
-BST Plus is the big brother of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
+-----
+
+**More information can be found in the BST Plus Docs here: [https://github.com/BST-Plus/bst-plus/wiki](https://github.com/BST-Plus/bst-plus/wiki).**
+
+-----
+
+BST Plus is the "big brother" of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
 
 **More information can be found in the BST Plus Docs here: [https://github.com/SimonPadbury/bst-plus/wiki](https://github.com/SimonPadbury/bst-plus/wiki).**
 
