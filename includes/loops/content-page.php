@@ -14,6 +14,7 @@ The Page Loop
             <?php tha_entry_top(); ?>
         </header>
         <?php the_content()?>
+        <?php wp_link_pages(); ?>
     </article>
     <?php tha_entry_bottom(); ?>
 <?php endwhile; else: ?>
