@@ -14,8 +14,6 @@
 
 BST Plus is the "big brother" of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
 
-**More information can be found in the BST Plus Docs here: [https://github.com/SimonPadbury/bst-plus/wiki](https://github.com/SimonPadbury/bst-plus/wiki).**
-
 -----
 
 ##BST Plus Child Theme
