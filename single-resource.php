@@ -17,7 +17,6 @@ classes (and style them in your styledheet).
 
 (d) You may also need a custome "archive-resource.php" (but I have not created one here yet).
 */
-
 php get_header(); ?>
 
 <div class="container">
