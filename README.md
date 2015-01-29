@@ -31,7 +31,7 @@ Initiating a child theme for BST Plus us a little unusual so I have started one 
 * **Bootstrap 3.3.1** - CSS and JS enqueued. You can simply swap the default Bootstrap 3 files (included) for a custom made Bootstrap 3, and this theme will still work.
 * **jQuery 1.11.1** either using the hosted Google CDN or WordPress's onboard jQuery. You decide.
 * `Modernizr.js`, `respond.js` and `html5shiv.css` included - enqueued.
-* **THA action hooks** are now added.
+* **THA action hooks** have been added.
 * **NEW: Admin Page Framework** is now added. More information can be [found here](https://github.com/michaeluno/admin-page-framework).
 * A starter CSS theme - `css/bst-plus.css`, enqueued. (**Don't** put your own styles in `style.css`.)
 * Visual editor stylesheet - into which the same Bootstrap 3 and starter CSS theme are preloaded by `@import`, so that what you see in the visual editor is (mostly!) what you get at the front end (WYSI(M!)WYG). E.g. you will see the theme's typography in the WordPress Post/Page editor, but its width will not be the same as your article column width in the front end.
