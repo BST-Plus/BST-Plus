@@ -1,14 +1,17 @@
 $(document).ready(function() {
 
+	// Remove defaults from ancient WordPress core template parts.
+	// See functions/includes.php for more information.
+	$('#page > hr').unwrap().remove();
+	$('#header, #sidebar, #footer').remove();
+	
+	// Adding Bootstrap classes to the Comments stuff
 	$(".commentlist li").addClass("panel panel-default");
 	$(".comment-reply-link").addClass("btn btn-default");
 
-  	/*
-	HOVERNAV
-	Navbar dropdown on hover.
-	Delete this segment if you don't want it, and delete the corresponding CSS in bst.css
-	Uses jQuery Media Query - see http://www.sitepoint.com/javascript-media-queries/
-	*/
+  	// HOVERNAV - navbar dropdown on hover.
+	// Delete this segment if you don't want it, and delete the corresponding CSS in bst.css
+	// Uses jQuery Media Query - see http://www.sitepoint.com/javascript-media-queries/
 	var mq = window.matchMedia('(min-width: 768px)');
 	if (mq.matches) {
 		$('ul.navbar-nav > li').addClass('hovernav');
@@ -29,24 +32,17 @@ $(document).ready(function() {
 		WidthChange(mq);
 	}
 
-	/*
-	MEGANAV
-	Allows GRAND-CHILD links to be displayed in a mega-menu on screens larger than phones.
-	Delete this segment if you don't want it, and delete the corresponding CSS in bst.css
-	*/
+	//MEGANAV - allows GRAND-CHILD links to be displayed in a mega-menu on screens larger than phones.
+	// Delete this segment if you don't want it, and delete the corresponding CSS in bst.css
 	$('.navbar').addClass('meganav');
 	$('.meganav .dropdown-menu .dropdown-menu').parent().addClass('has-children').parents('li').addClass('dropdown mega-menu');
 
-	/*
-	Forms
-	*/
+	// Forms
 	$('select, input[type=text], input[type=email], input[type=password], textarea').addClass('form-control');
 	$('input[type=submit]').addClass('btn btn-primary');
 
-  	/*
-	WOOCOMMERCE - restyling
-	Delete this segment if you don't want it, and delete the corresponding CSS in bst.css
-	*/
+  	// WOOCOMMERCE restyling
+	// Delete this segment if you don't want it, and delete the corresponding CSS in bst.css
 	$('div.woocommerce').wrapInner('<article></article>');
 	$('.woocommerce-pagination ul').css({"border": 0}).removeClass().addClass('pagination pagination-lg');
 	$('.woocommerce-pagination li').css({border: 0});
