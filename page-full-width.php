@@ -4,7 +4,7 @@ Template Name: Full Width Page
 */
 ?>
 
-<?php get_template_part('includes/header'); ?>
+<?php get_header(); ?>
 
 <div class="container">
   <div class="row">
@@ -19,4 +19,4 @@ Template Name: Full Width Page
   </div><!-- /.row -->
 </div><!-- /.container -->
 
-<?php get_template_part('includes/footer'); ?>
+<?php get_footer(); ?>
