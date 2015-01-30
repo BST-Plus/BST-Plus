@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php get_template_part('includes/header'); ?>
 
 <div class="container">
   <div class="row">
@@ -13,10 +13,10 @@
     </div>
     
     <div class="col-xs-6 col-sm-4" id="sidebar" role="navigation">
-        <?php get_sidebar(); ?>
+        <?php get_template_part('includes/sidebar'); ?>
     </div>
     
   </div><!-- /.row -->
 </div><!-- /.container -->
 
-<?php get_footer(); ?>
+<?php get_template_part('includes/footer'); ?>
