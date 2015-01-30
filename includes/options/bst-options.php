@@ -25,7 +25,7 @@ if ( is_admin() ) {
 if ( ! class_exists( 'AdminPageFramework' ) ) {
     include( 
         defined( 'WP_DEBUG' ) && WP_DEBUG
-            ? APFDEMO_DIRNAME . '/libraray/development/admin-page-framework.php' // use the development version when you need to do debugging.
+            ? APFDEMO_DIRNAME . '/library/development/admin-page-framework.php' // use the development version when you need to do debugging.
             : APFDEMO_DIRNAME . '/library/admin-page-framework.min.php' // use the minified version in your plugins or themes.
     );
 }
