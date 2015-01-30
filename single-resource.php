@@ -17,7 +17,7 @@ classes (and style them in your styledheet).
 
 (d) You may also need a custome "archive-resource.php" (but I have not created one here yet).
 */
-php get_header(); ?>
+get_template_part('includes/header'); ?>
 
 <div class="container">
   <div class="row">
@@ -27,9 +27,9 @@ php get_header(); ?>
       </div><!-- /#content -->
     </div>
     <div class="col-xs-6 col-sm-4" id="sidebar" role="navigation">
-      <?php get_sidebar(); ?>
+      <?php get_template_part('includes/sidebar'); ?>
     </div>
   </div>
 </div>
 
-<?php get_footer(); ?>
+<?php get_template_part('includes/footer'); ?>
