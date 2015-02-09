@@ -15,6 +15,10 @@ $(document).ready(function() {
 	var mq = window.matchMedia('(min-width: 768px)');
 	if (mq.matches) {
 		$('ul.navbar-nav > li').addClass('hovernav');
+		// Restore "clickable parent links" in navbar
+		$('.hovernav a').click(function () {
+			window.location = this.href;
+		});
 	} else {
 		$('ul.navbar-nav > li').removeClass('hovernav');
 	};
