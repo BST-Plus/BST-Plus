@@ -56,7 +56,7 @@
             wp_nav_menu($args);
         ?>
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  </div><!-- /.container -->
 </nav>
 <?php tha_header_before(); ?>
 <div class="container">
