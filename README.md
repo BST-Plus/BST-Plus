@@ -1,6 +1,6 @@
 #BST Plus
 
-*Version 3.2*
+*Version 3.3*
 
 **BST Plus is a WordPress Bootstrap starter theme. It has an increasing number of optional add-ons built in.** Examples: navbar drop-down on hover ('Hovernav'), navbar mega-menu ('Meganav'), and WooCommerce support. 
 
@@ -32,7 +32,7 @@ Initiating a child theme for BST Plus us a little unusual so I have started one 
 * **jQuery 1.11.2** either using the hosted Google CDN or WordPress's onboard jQuery. You decide.
 * `Modernizr.js`, `respond.js` and `html5shiv.css` included - enqueued.
 * **THA action hooks** have been added.
-* **NEW: Admin Page Framework** is now added. More information can be [found here](https://github.com/michaeluno/admin-page-framework).
+* **Admin Page Framework** is now added. More information can be [found here](https://github.com/michaeluno/admin-page-framework).
 * A starter CSS theme - `css/bst-plus.css`, enqueued. (**Don't** put your own styles in `style.css`.)
 * Visual editor stylesheet - into which the same Bootstrap 3 and starter CSS theme are preloaded by `@import`, so that what you see in the visual editor is (mostly!) what you get at the front end (WYSI(M!)WYG). E.g. you will see the theme's typography in the WordPress Post/Page editor, but its width will not be the same as your article column width in the front end.
 * Bootstrap pagination ( e.g. `1 | 2 | 3 | Older ->`) for Blog index and category pages.
@@ -45,7 +45,9 @@ Initiating a child theme for BST Plus us a little unusual so I have started one 
 * WooCommerce plugin support. (You will also need the [WooCommerce plugin] (http://wordpress.org/plugins/woocommerce/)).
 * Choice of two navbar positions (above and below the site title).
 * **Hovernav** - navbar dropdown on hover.
+* **NEW:** - Hovernav navbar parent links are now followable as links. :-)
 * **Meganav** - navbar mega-menu, which automatically works whenever there are grand-child links (for screen sizes >= 768px).
+* ** NEW:** - because Hovernav parent links are now followable, this means that parent links in the megamenu are also clickable. :-)
 * In `functions/cleanup.php` there are some filters included (but commented-out, so are inactive) for removing WordPress IDs and classes from the navbar(s). If you would like to use these filters, then simply un-comment them.
 * A few simple jQuery scripts - in `js/bst-plus.js`, enqueued.
 * Custom comment list callback.
