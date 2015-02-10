@@ -13,10 +13,6 @@ This works only for screen sizes larger than phones.
 If you don't want this, delete this segment of the CSS and delete the corresponding segment of js/bst-plus.js
 */
 @media (min-width: 768px) {
-  .navbar-nav .caret {
-    display: none
-  } 
-  /* Delete the above if you wish to display the caret */
   .navbar-nav .open ul {
     display: none
   }
