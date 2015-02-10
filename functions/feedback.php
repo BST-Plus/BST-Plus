@@ -25,9 +25,9 @@ function bst_plus_comment($comment, $args, $depth) {
       </div>
       <div>
         <h4 style="margin: 0 0 5px 0"><?php comment_author(); ?></h4>
-        <p class="comment-meta commentmetadata"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php printf('%1$s ' . __('at', 'bst') . ' %2$s', get_comment_date(), get_comment_time()) ?></a></p>
+        <p class="comment-meta commentmetadata"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php printf('%1$s ' . __('at', 'bst-plus') . ' %2$s', get_comment_date(), get_comment_time()) ?></a></p>
         <?php if ($comment->comment_approved == '0') : ?>
-          <p><em class="comment-awaiting-moderation"><?php _e('Your comment is awaiting moderation.', 'bst') ?></em></p>
+          <p><em class="comment-awaiting-moderation"><?php _e('Your comment is awaiting moderation.', 'bst-plus') ?></em></p>
         <?php endif; ?>
       </div>
     </div>
