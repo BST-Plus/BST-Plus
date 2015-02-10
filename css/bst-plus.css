@@ -10,7 +10,7 @@ HOVERNAV
 A simple addition to the dropdown menu (Bootstrap itself is unchanged). Navbar dropdowns appear on hover.
 This works only for screen sizes larger than phones.
 
-If you don't want this, delete this segment of the CSS and delete the corresponding segment of bst.js
+If you don't want this, delete this segment of the CSS and delete the corresponding segment of js/bst-plus.js
 */
 @media (min-width: 768px) {
   .navbar-nav .caret {
@@ -42,7 +42,7 @@ MEGANAV
 =======
 A simple addition to the dropdown menu (Bootstrap itself is unchanged). When you add GRAND-CHILD links in the navbar: on screens larger than phones, Meganav will transform the dropdown into a mega-menu, with child-links displayed as menu-column heads (in bold).
 
-If you don't want this, delete this segment of the CSS and delete the corresponding segment of bst.js
+If you don't want this, delete this segment of the CSS and delete the corresponding segment of js/bst-plus.js
 */
 .mega-menu ul a {
 	color: #666;
