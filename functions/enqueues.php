@@ -50,11 +50,8 @@ Delete (or comment-out) the next two lines of code below if you don't want the B
   	wp_register_style('bst-plus-css', get_template_directory_uri() . '/css/bst-plus.css', false, null);
 	wp_enqueue_style('bst-plus-css');
 
-  	wp_register_script('modernizr', get_template_directory_uri() . '/js/modernizr-2.6.2.min.js', false, null, true);
+  	wp_register_script('modernizr', get_template_directory_uri() . '/js/modernizr-2.6.2.min.js', false, null, false);
 	wp_enqueue_script('modernizr');
-
-  	wp_register_script('respond', get_template_directory_uri() . '/js/respond.min.js', false, null, true);
-	wp_enqueue_script('respond');
 
   	wp_register_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', false, null, true);
 	wp_enqueue_script('bootstrap-js');
