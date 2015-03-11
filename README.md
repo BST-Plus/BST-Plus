@@ -14,7 +14,7 @@
 
 BST Plus is the "big brother" of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
 
-If BST-PLus is too much for you, and so you are looking for only "BST with WooCommerce support, Hovernav and Meganav" then go to [https://github.com/SimonPadbury/WBST](https://github.com/SimonPadbury/WBST).
+If BST-Plus is too much for you, and so you are looking for only "BST with WooCommerce support, Hovernav and Meganav" then go to [https://github.com/SimonPadbury/WBST](https://github.com/SimonPadbury/WBST).
 
 -----
 
