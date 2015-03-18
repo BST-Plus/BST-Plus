@@ -26,6 +26,21 @@ $(document).ready(function() {
 		mq.addListener(WidthChange);
 		WidthChange(mq);
 	}
+	// Remove dropdowns "data-toggle" for screens >= 768, and restore for small screens after resize.
+	// (Delete this if you don't need it. It is only here because some people find that if they have
+	// a highly complicated mega-menu, their grand-child links disappear if they click the parent link.)
+	if ($(window).width() >= 768) {
+		$('.hovernav .dropdown-toggle').removeAttr('data-toggle');
+	}
+	$(window).resize(function () {
+	if ($(window).width() < 768 ) {
+		if (!$('.hovernav .dropdown-toggle').attr('data-toggle')) {
+			$('.hovernav .dropdown-toggle').attr('data-toggle', 'dropdown');
+		}
+	} else {
+		$('.hovernav .dropdown-toggle').removeAttr('data-toggle');
+	}
+	});
 	// Restore "clickable parent links" in navbar
 	$('.hovernav a').click(function () {
 		window.location = this.href;
