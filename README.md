@@ -1,22 +1,12 @@
 #BST Plus
 
-*Version 3.4.1*
+*Version 3.5*
 
 **BST Plus is a WordPress Bootstrap starter theme. It has an increasing number of optional add-ons built in.** Examples: navbar drop-down on hover ('Hovernav'), navbar mega-menu ('Meganav'), and WooCommerce support. 
 
 `Use what you want, and delete (or comment out) what you don't want. Each add-on is designed to be independant from the other add-ons, so that removal of one will not deactivate another. Deactivating an add-on will not remove any of the Bootstrap CSS or JS.`
 
------
-
 **More information can be found in the BST Plus Docs here: [https://github.com/BST-Plus/bst-plus/wiki](https://github.com/BST-Plus/bst-plus/wiki).**
-
------
-
-BST Plus is the "big brother" of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
-
-If BST-Plus is too much for you, and so you are looking for only "BST with WooCommerce support, Hovernav and Meganav" then go to [https://github.com/SimonPadbury/WBST](https://github.com/SimonPadbury/WBST).
-
------
 
 ##BST Plus Child Theme
 
@@ -63,3 +53,9 @@ And more to come.
 **More information can be found in the [BST Plus Docs here](https://github.com/BST-Plus/bst-plus/wiki).**
 
 **Changelog can be [found here](https://github.com/BST-Plus/BST-Plus/wiki/02-Changelog).**
+
+-----
+
+BST Plus is the "big brother" of BST, Bootstrap Starter Theme [https://github.com/SimonPadbury/bst](https://github.com/SimonPadbury/bst). It shares the same basic features as BST, and adds a few more basic features.
+
+Is BST-Plus is too much for you? If you only need "BST with WooCommerce support, Hovernav and Meganav" then go to [https://github.com/SimonPadbury/WBST](https://github.com/SimonPadbury/WBST).
