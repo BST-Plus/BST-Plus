@@ -8,7 +8,7 @@
 
 **More information can be found in the BST Plus Docs here: [https://github.com/BST-Plus/bst-plus/wiki](https://github.com/BST-Plus/bst-plus/wiki).**
 
-##BST Plus Child Theme
+###BST Plus Child Theme
 
 There's a BST Plus starter child theme if you are interested, called [bst-plus-child](https://github.com/SimonPadbury/bst-plus-child)
 
