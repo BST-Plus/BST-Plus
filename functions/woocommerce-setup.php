@@ -10,11 +10,11 @@ add_action( 'after_setup_theme', 'bst_plus_woocommerce_setup' );
 Set Default Thumbnail Sizes for WooCommerce Product Pages, on Theme Activation
 */
 global $pagenow;
-if ( is_admin() && isset( $_GET['activated'] ) && $pagenow == 'themes.php' ) add_action( 'init', 'dazzling_woocommerce_image_dimensions', 1 );
+if ( is_admin() && isset( $_GET['activated'] ) && $pagenow == 'themes.php' ) add_action( 'init', 'bst_plus_woocommerce_image_dimensions', 1 );
 /*
 Define image sizes
 */
-function dazzling_woocommerce_image_dimensions() {
+function bst_plus_woocommerce_image_dimensions() {
   $catalog = array(
 		'width' 	=> '350',	// px
 		'height'	=> '453',	// px
