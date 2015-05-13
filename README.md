@@ -1,6 +1,6 @@
 #BST Plus
 
-*Version 3.5.1*
+*Version 3.6*
 
 **BST Plus is a WordPress Bootstrap starter theme. It has an increasing number of optional add-ons built in.** Examples: navbar drop-down on hover ('Hovernav'), navbar mega-menu ('Meganav'), and WooCommerce support. 
 
@@ -20,9 +20,9 @@ Initiating a child theme for BST Plus us a little unusual so I have started one 
 
 * *Simple, intuitive, clean code.*
 * CSS, JS, functions and template parts are organized into different folders.
-* **Bootstrap 3.3.2** - CSS and JS enqueued. You can simply swap the default Bootstrap 3 files (included) for a custom made Bootstrap 3, and this theme will still work.
-* **jQuery 1.11.2** either using the hosted Google CDN or WordPress's onboard jQuery. You decide.
-* `Modernizr.js`, `respond.js` and `html5shiv.css` included - enqueued.
+* **Bootstrap 3.3.4** – CSS and JS included, enqueued. You can simply swap the default Bootstrap 3 files (included) for a custom made Bootstrap 3, and this theme will still work.
+* **jQuery 1.11.3** – either using the Google CDN or WordPress's onboard jQuery. You decide.
+* `modernizr-2.8.3.min.js` and `respond.js` – included, enqueued.
 * **THA action hooks** have been added. (You will need the [THA-Hooks-Interface plugin] (https://github.com/ThematoSoup/THA-Hooks-Interface).)
 * **Admin Page Framework** is now added. More information can be [found here](https://github.com/michaeluno/admin-page-framework).
 * A starter CSS theme - `css/bst-plus.css`, enqueued. (**Don't** put your own styles in `style.css`.)
