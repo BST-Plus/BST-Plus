@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php tha_html_before(); ?>
-<html>
+<html class="no-js">
 <head>
   <?php tha_head_top(); ?>
 	<title><?php wp_title('•', true, 'right'); bloginfo('name'); ?></title>
